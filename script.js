@@ -54,6 +54,60 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
             ],
         },
+        {
+            
+            country: 'Canada',
+            capital: 'Ottawa',
+            largestCity: 'Toronto',
+            subdivisionName: 'province',
+            subdivisions: [
+                {
+                    name: 'Ontario',
+                    capital: 'Toronto',
+                    largestCity: 'Toronto',
+                    area: 1076395,
+                },
+                {
+                    name: 'Quebec',
+                    capital: 'Quebec City',
+                    largestCity: 'Montreal',
+                    area: 1542056,
+                },
+                {
+                    name: 'British Columbia',
+                    capital: 'Victoria',
+                    largestCity: 'Vancouver',
+                    area: 944735,
+                },
+            ],
+        },
+        {
+            
+            country: 'Australia',
+            capital: 'Canberra',
+            largestCity: 'Sydney',
+            subdivisionName: 'state',
+            subdivisions: [
+                {
+                    name: 'New South Wales',
+                    capital: 'Sydney',
+                    largestCity: 'Sydney',
+                    area: 809444,
+                },
+                {
+                    name: 'Victoria',
+                    capital: 'Melbourne',
+                    largestCity: 'Melbourne',
+                    area: 227416,
+                },
+                {
+                    name: 'Queensland',
+                    capital: 'Brisbane',
+                    largestCity: 'Brisbane',
+                    area: 185976,
+                },
+            ],
+        },
     ];
     
       const tableContainer = document.getElementById('table-container');
